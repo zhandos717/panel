@@ -1,0 +1,429 @@
+
+        	body{
+			width: 1000px;   /* ширина */
+			height: 1400px; /* высота */
+			padding: 0px 20px 30px 30px;  /*внутренние отступы - верх, право, низ, лево */
+			margin: 20px auto;  /* выравнивание по центру */
+			font-family:  "Times New Roman"; /* нужный шрифт */;
+			font-size: 130%;
+            text-align:justify;
+			}
+			.attachment{ 
+			text-align: center;
+			margin-top: 0%;
+            padding-top: 0;
+			margin-left: 45%; 
+			width: 50%;
+			}
+            .reg{
+                margin-left: 60%;
+            }
+            /*Реквизиты*/
+            .requisites{
+            margin-top: 0%;
+            padding-top: 0;
+            width: 1000px;
+            }
+             /*Реквизиты*/
+             h4{
+                 margin-top: 20px;
+             }
+			/*Бирка на товар*/
+                
+			.statement{
+			font-weight: 900;
+            margin-top: 0;
+            margin-bottom: 0;
+			}
+			.empty{
+			width: 70%;
+			}
+			.familiarization{
+				text-indent: 10%; /* Отступ первой строки в пикселах */
+			}
+			Ol{
+				margin-left: 0;
+				margin-left: 0;
+				padding-left: 2%;
+				padding-right: 0;
+			}
+			.PlaceForText{
+				border-bottom: 1px solid black;
+				padding-right: 10%;
+				padding-left: 5%;
+			}
+			sup{
+				font-size: 60%;
+				padding-left:0,5%;
+			}
+			.identification{
+				border-bottom: 1px solid black;
+				padding-right: 2%;
+				padding-left: 2%;
+			}
+            
+			article + article { page-break-before: always; }
+			footer { display: block; }
+            
+            .otmk{
+                text-align:left;
+                padding-bottom: 2%;
+                padding-top: 2%;
+            }
+            .kl11{
+                font-weight: 900;
+                width: 6%;
+                white-space: nowrap;
+            }
+            .p{
+                margin-top: 3%;
+                white-space: nowrap;
+            }
+
+            .newPage{page-break-before: always; }
+            .newPage1{
+                page-break-before: always;
+                font-size: 90%; }
+            /*Бирка на товар*/
+			.birka2,.name{
+			text-align: center;
+            margin-right: 10%;
+            margin-top: 10;
+            font-weight: 900;
+			}	
+			
+			.birka1{
+			border:1px solid #020202;
+			padding:0px 10px 10px 10px; 
+            width: 650px;
+			height:120px;
+            margin-top:5%; 
+            font-size: 90%;
+			}
+			.explanation{
+                font-size: 90%;
+                margin-top: -2%;
+            }
+            .list2{
+                page-break-before: always;
+            }
+           @page {
+                        margin: 1cm;
+                        }
+			/*Бирка на товар*/
+            th{
+                text-align: left;
+            }
+            .pledger{
+                padding-left: 2%;
+            }
+            .mp{
+                width:5%;
+            }
+                /*=======================================================================================*/
+                p.p101 {text-align: right; font-family: tahoma; margin-top:3%;
+                    font-size: 90%; }
+
+                p.f101{ text-align: left; font-family: tahoma;  margin-top: -15%; margin-left: 0%;}
+
+                .Too{margin-left:0%; margin-top:0%; }
+
+                .o101{padding: 10px 180px 1px 180px; font-size:110%; font-family: "Times New Roman"; border-bottom: 2px solid #020202; text-align: center; font-weight: 900;}
+                .o1010{text-align: center; font-family: tahoma; font-size: 80%; margin-top:1%; margin-left:0%; }
+
+                .T0101{ font-family: "tahoma"; font-size:120%; margin-left:65%; margin-top: 10%;  width:35%; border-bottom: 0.4px solid #020202; text-align: center; font-weight: 900;}
+                .line01{ width:1%; height: 50%; border-left:none; margin-left:62.2%;}
+                .row01{ 
+                    width: 25%;
+                    font-weight: 900;
+                    margin-left:75%; 
+                    margin-top: 3%;
+                    font-size: 90%;  }
+
+                .iin01{padding: 0px 5px 0px 5px;border: 0.5px solid #020202; text-align: center; font-family: "tahoma"; margin-top:0%; }
+
+                .iin201{;text-align: right;
+                    border: none; 
+                    font-weight: 500;
+                     font-family:"tahoma";
+                    white-space: nowrap;}
+
+                .DT01{width:35%;border-collapse:  collapse; /*убираем пустые промежутки между ячейками*/
+                font-family: "tahoma"; font-size:90%;
+                margin-left:65% ;
+                 margin-top:1%;
+                 white-space:nowrap;
+                }
+
+                .dts01,.nmdoc01{
+                    padding: 0px 5px 0px 5px;
+                    border-bottom:1px solid #020202;
+                    border-left: 1px solid #020202;
+                    border-right:1px solid #020202; 
+                    border-top:1px solid #020202;
+                    text-align: center;
+                     }
+                .data01,.zb01{ border-bottom:1px solid #020202;border-left: 1px solid #020202;border-right:1px solid #020202; border-top:1px solid #020202;font-weight: 900;text-align: center;}
+                .order01{font-family: "tahoma"; 
+                        font-size:110%; 
+                        margin-top:-3%;
+                        margin-left:10%;
+                        color: #020202;
+                        font-weight: 500;}
+
+                .T101{border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+                font-family: "tahoma"; font-size:90%; margin-left:0.5%; margin-top:-0.5%;}
+                    /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */
+                .debet01{padding: 2px 20px 2px 20px;border:1px solid #020202;text-align: center;}
+                .kredit01{padding: 2px 35px 2px 35px;border:1px solid #020202; text-align: center;}
+                .summa01{padding: 10px 45px 10px 45px;border:1px solid #020202; text-align: center;}
+                .kod01{padding: 10px 20px 10px 20px;border:1px solid #020202;text-align: center;}
+                .debet201{padding: 2px 10px 2px 10px;border:1px solid #020202;font-weight: 900; text-align: center;}
+                .summa201,.kredit201{padding: 2px 7px 2px 7px;border:1px solid #020202;font-weight: 900; text-align: center;}
+                .kod201{padding: 2px 10px 2px 10px;border:1px solid #020202;font-weight: 900; text-align: center;}
+
+                .T201{border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+                font-family: "tahoma"; font-size:100%; margin-left:0%; margin-top:1%;}
+                    /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */
+                
+                .pr01{padding: 0px 40px 0px 10px; text-align: left;}
+                .kl01{padding: 5px 220px 0px 0px;
+                    border-bottom:1px solid #020202;
+                    text-align:left;
+                    white-space: nowrap;}
+                .prop{padding: 0px 30px 5px 100px; font-size:80%;}
+
+                .ruc{padding: 10px 40px 0px 10px; text-align: left;}
+                /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */
+                .dolzhnost01{padding: 8px 30px 0px 40px; border-bottom:1px solid #020202;}
+                    /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */
+                .slesh01{padding: 10px 10px 0px 120px;border-bottom:1px solid #020202;}
+
+                .Fio{padding: 10px 1px 0px 0px;border-bottom:1px solid #020202;font-weight: 900;}
+
+                .dolzhnost101{padding: 0px 10px 0px 40px;font-size:65%;}
+                .podpis01{padding: 0px 50px 0px 50px;font-size:65%;}
+                .Fio01{padding: 0px 50px 0px 40px;font-size:65%;}
+
+                .T202{border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+                font-family: "tahoma"; font-size:90%; margin-left:0.5%; margin-top:-1%;}
+                    /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */
+                .pol{padding: 5px 80px 0px 5px; text-align: left;}
+                .Fio02{padding: 10px 88px 0px 13px;
+                    border-bottom:1px solid #020202;
+                    font-weight: 900;
+                    white-space: nowrap;}
+                .slesh02{padding: 10px 30px 0px 10px;
+                    border-bottom:1px solid #020202;
+                    }
+                .dt02{ padding: 10px 50px 0px 10px; }
+
+                .T203{border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+                font-family: "tahoma"; font-size:90%; margin-left:0.5%; margin-top:-1%;}
+                    /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */
+                .ud{padding: 10px 20px 0px 5px; 
+                    border-bottom:1px solid #020202;
+                    white-space: nowrap;
+                }
+                .nomer{padding: 10px 60px 0px 0px; border-bottom:1px solid #020202;}
+                .dtv{padding: 10px 50px 0px 0px; border-bottom:1px solid #020202;}
+                .organ{padding: 10px 105px 0px 0px; border-bottom:1px solid #020202; text-align: right;}
+                .naim{padding: 0px 70px 0px 70px;font-size:65%; text-align: center;}
+
+                .T204{border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+                font-family: "tahoma"; font-size:100%; margin-left:0.5%; margin-top:-1%;}
+                    /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */
+                .Fio03{padding: 10px 310px 10px 10px;
+                    border-bottom:1px solid #020202;
+                    font-weight: 900;
+                    white-space: nowrap;}
+                .pol01{
+                    padding: 5px 45px 0px 5px;
+                     text-align: left;
+                    white-space: nowrap;}
+                .Fio04{padding: 0px 100px 0px 40px;font-size:65%;}
+                /*=======================================================================================*/
+
+
+                p.p1 {text-align: right; 
+                font-family: tahoma; 
+                font-size: 80%; 
+                margin-top:0%;}
+                p.f1{ text-align: left; font-family: tahoma; font-size: 90%; margin-top:-12%; margin-left:1.2% ; }
+
+                p.o1{text-align: left;
+                 font-family: tahoma; 
+                 font-size: 70%; 
+                 margin-top: -2.2%;
+                  margin-left:2% ;}
+
+                .T00{ 
+                    font-family: "Times New Roman"; 
+                    font-size:110%;
+                     margin-left:35.5%;
+                      margin-top:4%;  
+                      width:32%;
+                       border-bottom: 3px solid #020202; 
+                       padding: 0px 10px;
+                       text-align: center; 
+                       font-weight: 900;}
+
+                .T01{ font-family: "tahoma";
+                    font-size:90%;
+                    margin-left:70%;
+                    margin-top:-25%;
+                    width:25%; 
+                    text-align: center;}
+                .o2{ font-family: tahoma;
+                 font-size: 70%;
+                 white-space: nowrap;}
+                .T011{ font-family: "tahoma"; 
+                        font-size:90%; margin-left:65%; 
+                        margin-top:0%;  
+                        border-bottom: 1px solid #020202; 
+                        text-align: center;
+                        font-weight: 900;}
+                .line1{ padding: 30px 90px 5px 30px; 
+                    width: 35%; 
+                    transform: rotate(90deg);
+                     writing-mode: lr-tb;
+                     display: block;
+                     margin-left:47%;
+                      margin-top: 14%; 
+                      font-family:"tahoma"; 
+                      text-align: center; 
+                      font-size:70%; 
+                      border-bottom: 0.4px solid #020202;  }
+
+                .iin{border: 1px solid #020202; 
+                    text-align: center; 
+                    font-family: "tahoma"; 
+                    font-size:90%;
+                    padding: 0px 15px;}
+                .row{font-weight: 900;
+                    margin-left:38.5%; 
+                    margin-top: 0%; }
+
+                .iin2{width:40%; border: none;font-weight: 500; font-family: "tahoma";font-size:90%;
+                margin-top: 0%; text-align: right;}
+
+                .DT{border-collapse:  collapse; /*убираем пустые промежутки между ячейками*/
+                font-family: "tahoma"; 
+                font-size:80%;
+                 margin-left:36.5%; 
+                 margin-top:1%; }
+
+                 .dts,.nmdoc{width: 45%;border:1px solid #020202;text-align: center;}
+                 .data,.zb{ border:1px solid #020202;font-weight: 900;text-align: center;}
+                .kvitan{font-family: "tahoma"; 
+                font-size:80%; 
+                margin-left:70%; 
+                margin-top:0%;  
+                width:30%;  
+                text-align: center;
+                 font-weight: 500;}
+                .prinyat{font-family: "tahoma"; 
+                font-size:70%; 
+                margin-left:70%; 
+                margin-top:5%;  
+                width:35%; 
+                 text-align: left;
+                  font-weight: 500;}
+                  .p12{
+                    font-size: 60%;
+                    margin-left:75%;
+                    margin-top:-1.5%;
+                    
+                    
+                }
+                .order{font-family: "tahoma"; font-size:120%; margin-top:-33%;margin-left:15%;}
+                
+
+                .T1{border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+                font-family: "tahoma"; font-size:90%; margin-left:3.5%; margin-top:-0.5%;}
+                    /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */
+
+                .kod,.debet{padding: 10px 10px 10px 10px;border:1px solid #020202;text-align: center;}
+                .kredit{padding: 2px 7px 2px 7px;border:1px solid #020202; text-align: center;}
+                .summa{padding: 10px 30px 10px 30px;border:1px solid #020202; text-align: center;}
+               .debet2{padding: 2px 15px 2px 15px;border:1px solid #020202; text-align: center;}
+               .summa2,.kredit2{padding: 2px 7px 2px 7px;border:1px solid #020202; text-align: center;}
+                .kod2{padding: 2px 10px 2px 10px;border:1px solid #020202;text-align: center;}
+
+                .T2{border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+                        font-family: "tahoma";
+                        font-size:90%; 
+                        margin-left:3.5%; 
+                        margin-top:-0.5%;}
+                    /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */
+
+                .pr{padding: 20px 25px 0px 0px; text-align: left;}
+                .kl{padding: 10px 10px 0px 5px;
+                    border-bottom:1px solid #020202;
+                    text-align: left;}
+                .os{padding: 1px 25px 0px 0px; text-align: center;}
+                .os1{padding: 10px 10px 0px 5px;text-align: left;}
+
+                .T3{border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+                font-family: "tahoma"; font-size:100%; margin-left:10%; margin-top:1%;}
+                    /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */
+                .voz,.kom{ text-align: right; }
+                .i{font-weight: 900; text-align: center;}
+
+                .T4{border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+                font-family: "tahoma"; font-size:90%; margin-left:3.5%; margin-top:1%;}
+                    /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */
+                    .summ{padding: 10px 25px 0px 0px;text-align: left;}
+                    .summ1{
+                        padding: 10px 10px 0px 0px; 
+                    text-align:right;
+                    border-bottom:1px solid #020202;
+                    font-weight: 900;}
+                .T5{border-collapse: collapse; /*убираем пустые промежутки между ячейками*/
+                font-family: "tahoma"; font-size:90%; margin-left:3.5%; margin-top:1%;}
+                    /* padding: 10 10 10 10; внутренние отступы - верх, право, низ, лево */}
+                .kass{ padding: 10px 1px 0px 0px;text-align: left; font-size: 80%; }
+                .pusto{ padding: 10px 110px 0px 0px;
+                 text-align:right;
+                 border-bottom:1px solid #020202;
+                 font-weight: 900; 
+                 font-size: 80%;}
+                .slesh{ padding: 10px 10px 0px 0px; 
+                        text-align:right;
+                        border-bottom:1px solid #020202;
+                        font-weight: 900; 
+                        font-size: 80%;}
+                
+                .kass1{ padding: 10px 55px 5px 0px; text-align:right;border-bottom:1px solid #020202;}
+                .pusto1{padding: 0px 15px 10px 30px; font-size:70%;}
+                .kass2{padding: 0px 15px 10px 15px; font-size:70%;}
+                .rko{ margin-top:0%; font-size: 100%;}
+                .Pko{margin-top:5%; font-size: 100%;}
+                .pdn{
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }
+                .tiket{
+                    font-size:93%;
+                }
+                /*=======================================================================================*/
+                .it{
+                    font-style: italic;
+                    margin-top: -0.4%;
+                    font-size: 80%;
+                }
+                .nr{
+                    font-weight: 500;
+                }
+                
+                .profile{
+                    margin-top: 0%;
+                }
+                .opis{border: 1px solid black;
+                text-align: left;
+                border-collapse: collapse;
+                width: 100%;
+                margin-top: -1%;
+                margin-bottom: 0.5%;
+                 }
+                .opisNo{border:1px solid #020202;text-align: center; }
